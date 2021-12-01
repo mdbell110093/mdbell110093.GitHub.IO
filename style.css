@@ -1,0 +1,198 @@
+.body {
+  border-style: double;
+
+  min-width: 1080px;
+  max-width: 1224px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 16px;
+
+  background-color: #25446c;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  flex: 1 0 100%;
+}
+nav a {
+  border: 2px solid #000;
+  border-style: double;
+
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  word-spacing: 2xp;
+
+  background-color: #f5e993;
+  color: #000;
+}
+
+nav a:link {
+  color: #000;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #000;
+  background-color: #25446c;
+}
+
+nav a:focus {
+  color: #698d8d;
+  display: inline-block;
+}
+
+nav a:active {
+  color: #f5e993;
+  display: inline-block;
+}
+
+img {
+  border: solid;
+  color: #000;
+}
+
+.header {
+  height: 2in;
+  border: solid #000;
+  border-bottom-style: double;
+
+  background-color: #eb7346;
+}
+
+.h1 {
+  border: hidden;
+
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  font-weight: bold;
+
+  color: #000;
+}
+
+.main {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 300px;
+
+  background-color: #b0a69e;
+}
+
+/* Detail seperated content for Pages */
+.Homeh2 {
+  padding-left: 15px;
+
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.Portfolioh2 {
+  padding-right: 150px;
+
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.Homecolumns {
+  column-count: 1;
+  column-width: 450px;
+  column-gap: 10px;
+
+  padding-right: 15px;
+}
+
+.Portfoliocolumns {
+  column-count: 1;
+  column-width: 450px;
+  column-gap: 10px;
+
+  padding-left: 150px;
+}
+
+.HomeP {
+  padding-top: 15px;
+  padding-left: 15px;
+
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.PortfolioP {
+  padding-top: 15px;
+  padding-right: 150px;
+
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+/* My desrciption content */
+.dl_content {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+
+  background-color: #c0a993;
+
+  border: solid #000;
+  border-style: double;
+}
+
+.dd {
+  padding-right: 15px;
+}
+
+/* My grid content */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  border-top-style: double;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  text-align: center;
+
+  background-color: #aeaf3e;
+}
+
+/* My @media content for a phone */
+@media (max-width: 450) {
+  .body_content {
+    min-width: 450px;
+    border-width: 450px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
